@@ -10,7 +10,7 @@ import joblib
 
 # Load the dataset
 try:
-    df = pd.read_csv("C:/Master/classes/Machine learning/Kaggle_First/ML_LLM/train.csv")
+    df = pd.read_csv("C:/Master/classes/Machine learning/Kaggle_First/train.csv")
 except FileNotFoundError:
     print("Error: 'train.csv' not found. Make sure you've downloaded the dataset.")
     exit()
