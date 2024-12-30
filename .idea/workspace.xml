@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4189571-4816-45ca-9918-6b0f08722570" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../sample_submission.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm_kaggle.py" beforeDir="false" afterPath="$PROJECT_DIR$/llm_kaggle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -33,18 +32,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.LLM_Classification.executor": "Run",
-    "Python.classification_llm.executor": "Run",
-    "Python.kaggle_llm.executor": "Run",
-    "Python.llm.executor": "Run",
-    "Python.llm_kaggle.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.LLM_Classification.executor&quot;: &quot;Run&quot;,
+    &quot;Python.classification_llm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kaggle_llm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.llm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.llm_kaggle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.llm_kaggle">
     <configuration name="LLM_Classification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML_LLM" />

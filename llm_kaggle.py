@@ -58,18 +58,18 @@ print(f"Accuracy: {accuracy}")
 print("Classification Report:")
 print(classification_report(y_test, y_pred))
 
-# Cross-validation (optional but recommended for better evaluation)
+# Cross-validation
 cv_scores = cross_val_score(model, X, y, cv=5, scoring='accuracy')  # 5-fold cross-validation
 print(f"Cross-validation accuracy scores: {cv_scores}")
 print(f"Mean CV accuracy: {np.mean(cv_scores)}")
 
-# Hyperparameter Tuning (optional, adjust for model improvement)
+# Hyperparameter Tuning
 param_grid = {'C': [0.01, 0.1, 1, 10, 100]}  # Regularization parameter tuning
 grid_search = GridSearchCV(LogisticRegression(solver='liblinear'), param_grid, cv=5, scoring='accuracy')
 grid_search.fit(X_train, y_train)
 print(f"Best hyperparameters: {grid_search.best_params_}")
 
-# Retrain model with the best parameters (if needed)
+# Retrain model with the best parameters
 best_model = grid_search.best_estimator_
 best_model.fit(X_train, y_train)
 
@@ -101,10 +101,10 @@ print("Model and vectorizer saved to disk.")
 
 ########################################### Kaggle Submission ################################################
 
-# Prepare the test data (assuming you have a 'test.csv' for Kaggle submission)
+# Prepare the test data
 test_df = pd.read_csv('C:/Master/classes/Machine learning/Kaggle_First/test.csv')
 
-# Preprocess the test data (same as training data)
+# Preprocess the test data
 test_text = test_df['response_a'] + ' ' + test_df['response_b']
 test_X = vectorizer.transform(test_text)
 
