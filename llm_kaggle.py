@@ -10,7 +10,7 @@ import joblib
 
 # Load the dataset
 try:
-    df = pd.read_csv("C:/Master/classes/Machine learning/Kaggle_First/ML_LLM/train.csv")
+    df = pd.read_csv("C:/Master/classes/Machine learning/Kaggle_First/train.csv")
 except FileNotFoundError:
     print("Error: 'train.csv' not found. Make sure you've downloaded the dataset.")
     exit()
@@ -102,7 +102,7 @@ print("Model and vectorizer saved to disk.")
 ########################################### Kaggle Submission ################################################
 
 # Prepare the test data (assuming you have a 'test.csv' for Kaggle submission)
-test_df = pd.read_csv('C:/Master/classes/Machine learning/Kaggle_First/ML_LLM/test.csv')
+test_df = pd.read_csv('C:/Master/classes/Machine learning/Kaggle_First/test.csv')
 
 # Preprocess the test data (same as training data)
 test_text = test_df['response_a'] + ' ' + test_df['response_b']
